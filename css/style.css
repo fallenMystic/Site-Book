@@ -3,79 +3,47 @@ header{
     padding: block;
 }
 
-.Search{
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 10px;
-margin: 0px 0px 0px 670px;
+
+.navigation ul li a .text{
+    position: absolute;
+    color:var(--clr);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+.navigation ul li a .text{
+ opacity: 1;
 }
 
-.Search2{
-display: grid;
-margin: -32px 0px 0px 1300px;
-grid-template-columns: 0fr 0fr;
-width: 67px;
-height: 33px;
+.navigation ul li.list a .icon {
+    
+    color: black;
+
+}.navigation ul li a .icon
+{
+    position: relative;
+    display:grid;
+    line-height: 0px;
+    font-size: 2em;  
+    
 }
-
-
-    .seletor-para-algum-widget {
-        box-sizing: content-box;
+.navigation{
+    align-content: right;
       }
-  :root{
-      --clr: #222327
-  }
-
-  .navigation{
-align-content: right;
-  }
-
-      .navigation ul{
-          display: flex;
-          width: 350px;
-      }
-      .navigation ul li{
-          position: relative;
-          list-style: none;
-          width: 70px;
-          height: 70px;
-          z-index: 1;
-      }
-      .navigation ul li a{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        font-weight: 500;
-        }
-        .navigation ul li a .icon
-        {
-            position: relative;
-            display: block;
-            line-height: 75px;
-            font-size: 1.5em;   
-            transition: 0.5s;
-            color:var(--clr);
-        }
-        .navigation ul li:hover a .icon{
-            transform: translatey(-35px);
-        }
-        .navigation ul li a .text{
-            position: absolute;
-            color:var(--clr);
-            font-weight: 400;
-            font-size: 0.75em;
-            letter-spacing: 0.05em;
-            transition: 0.5s;
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        .navigation ul li a .text{
-         opacity: 1;
-        }
-        .navigation ul li a .list {
-
-        }
+    
+          .navigation ul{
+              display: flex;
+              width: 350px;
+          }
+          .navigation ul li{
+              position: relative;
+              list-style: none;
+              width: 70px;
+              
+          }
+body{
+    background-color: rgb(250, 236, 215);
+}
