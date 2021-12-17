@@ -1,6 +1,7 @@
 header{
     background-color: brown;
-    padding: block;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -19,31 +20,55 @@ header{
 }
 
 .navigation ul li.list a .icon {
-    
-    color: black;
-
-}.navigation ul li a .icon
-{
-    position: relative;
-    display:grid;
-    line-height: 0px;
-    font-size: 2em;  
-    
+color: black;
 }
-.navigation{
-    align-content: right;
-      }
+
+.navigation ul li a .icon{
+line-height: 0px;
+font-size: 60px;  
+padding: 3; 
+text-align: center;
+
+}
+
+
+.right{
+display: grid;
+padding: 10px 10px 10px 10px;
+margin: 70px 90px 70px 1600px;
+}
     
-          .navigation ul{
-              display: flex;
-              width: 350px;
-          }
-          .navigation ul li{
-              position: relative;
-              list-style: none;
-              width: 70px;
-              
-          }
+.navigation ul{
+display: flex;
+width: 350px;
+}
+
+.navigation ul li{
+position: relative;
+list-style: none;
+width: 70px;
+}
+
 body{
     background-color: rgb(250, 236, 215);
-}
+}ion-icon {
+    font-size: 30px;
+    
+  }
+  h1{
+      padding: 5px;
+      font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+        padding-left: 20px;
+  }
+  img{
+      padding-left: 20px;
+      
+  }
+  footer{
+      text-align: center;
+      background-color: brown;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      border-color: black solid;
+      }

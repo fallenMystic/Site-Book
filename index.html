@@ -12,6 +12,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
     <title>BooksOn</title>
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      
+      .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+      
+      .text {
+        white-space: nowrap; 
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      </style>
+     
+     
+      
+     
+      
+       
   </head>
   <body>
     <header>
@@ -52,16 +99,22 @@
             <ul>
                 <li class="list">
                 <a href="#">
-                    <main class="icon">
-                        <ion-icon name="heart-outline">Favoritos</ion-icon>
+
+                  <main class="right">
+                        <ion-icon class="icon" name="heart-outline"> Favoritos </ion-icon>
                     </main>
+                    
+
                     <span class="text"></span>
                 </a>
               </li>
               <li class="list">
                   <a href="#">
                       <span class="icon">
-                        <ion-icon name="person-circle-outline">Perfil</ion-icon>
+
+                      <main class="right">
+                        <ion-icon class="icon" name="person-circle-outline">Perfil</ion-icon>
+                        
                       </span>
                       <span class="text"></span>
                   </a>
@@ -78,15 +131,15 @@
 
 
                
+          
+          
+          </header>
           <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Aproveite já e descubra o melhor livro para sua estante!</strong> 
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          
-          </header>
-
           <!-- Exemplo de único botão danger -->
            
  
@@ -112,8 +165,27 @@
       <span class="sr-only">Próximo</span>
     </a>
   </div>
+  <br><br>
+  <h1> <u> <b>Livros</b> </u></h1>
+  <br>
+  <img src="imagens/livro1.jfif" height="500" width="350" alt="">
+ <img src="imagens/livro2.png"height="500" width="350" alt="">
+ <img src="imagens/livro3.jfif"height="500" width="350" alt="">
+ <img src="imagens/livro4.jfif"height="500" width="350" alt="">
+ <img src="imagens/livro9.jfif"  height="500" width="350"alt="">
+ 
+ <br><br>
+ <img src="imagens/livro5.jfif"height="500" width="350" alt="">
+ <img src="imagens/livro6.png" height="500" width="350"alt="">
+ <img src="imagens/livro7.jfif" height="500" width="350"alt="">
+ <img src="imagens/livro8.jfif" height="500" width="350"alt="">
+<img src="imagens/livro10.jfif"  height="500" width="350" alt="">
+ <br><br><br>
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <footer>
+   Feito por Gabriella
+ </footer>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
