@@ -10,15 +10,23 @@ body{
 }ion-icon {
     font-size: 30px;
 }
-img{
-    padding-left: 30px;
-    border-radius: 10%;
-}
-p{
-    padding-left: 50px;
-}
 footer{
-    text-align: center;
     background-color: brown;
     color: white;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 50px;
+}
+h4{
+    font-size: 50px;
+} 
+img{
+    padding-left: 10px;
 }
