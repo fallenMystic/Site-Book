@@ -4,52 +4,20 @@ header{
     margin: 0px;
 }
 
-.navigation ul li a .text{
-    position: absolute;
-    color:var(--clr);
-    font-weight: 400;
-    font-size: 0.75em;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
-    opacity: 0;
-    transform: translateY(20px);
-}
-.navigation ul li a .text{
- opacity: 1;
-}
-
-.navigation ul li.list a .icon {
-color: black;
-}
-
-.navigation ul li a .icon{
-line-height: 0px;
-font-size: 60px;  
-padding: 3; 
-text-align: center;
-
-}
-
-
-.right{
-display: grid;
-padding: 10px 10px 10px 10px;
-margin: 70px 90px 70px 1600px;
-}
-    
-.navigation ul{
-display: flex;
-width: 350px;
-}
-
-.navigation ul li{
-position: relative;
-list-style: none;
-width: 70px;
-}
 
 body{
-    background-color: rgb(250, 236, 215);
+    background-color: #faecd7;
 }ion-icon {
     font-size: 30px;
+}
+img{
+    padding-left: 15px;
+}
+h1{
+    padding-left: 15px;
+}
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
 }

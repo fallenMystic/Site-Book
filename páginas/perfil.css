@@ -22,17 +22,43 @@ body{
 .form-group{
 text-align: center;
 }
-.enviar{
-    margin: 0 auto;
-    background-color: black;
-    color: white;
-    border-radius: 20%;
-}
+
 footer{
     background-color: brown;
     text-align: center;
     color: white;
 }
-.Senha{
-    border-radius: 50%;
+.Enviar{
+    width: 350px;
+    text-align: absolute;
+        left: 100%;
+        top: 100%;
+        margin-left:-110px;
+        margin-top:-40px;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: brown;
+    font-size: 20px;
 }
+
+.inputlp{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10%;
+    height: 30px;
+    width: 252px;
+    }
+    
+    .inputlp1{
+    border-radius: 5%;
+    font-family: 'Poppins', sans-serif;
+    height: 31px;
+    width: 87px;
+    background-color: brown;
+    color: white;
+    }
+    
+    .center{
+    text-align: center;
+    }
